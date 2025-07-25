@@ -1,0 +1,117 @@
+.Checkout-main1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+.Checkout-main2{
+    margin-top: 40px;
+    
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-right: 50px;
+    
+}
+.Checkout-main3{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1.5fr auto auto 1fr;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    margin-left: 180px;
+    border-top:solid 1px grey;
+    border-bottom:solid 1px grey;
+    padding-bottom: 20px;
+}
+.cart-image{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.inner-div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.quantity-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #222;
+  padding: 4px 8px;
+  background: white;
+  border-radius: 6px;
+}
+
+
+    .quantity-button button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .quantity-button span {
+      width: 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .quantity-button button:hover {
+      background: #ddd;
+    }
+.inner-div2{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.star{
+    width: 80px;
+    margin-top: 14px;
+}
+.quantity2{
+    margin-top: 20px;
+    margin-left: 50px;
+   
+    display: inline-block;
+}
+.total{
+    text-align: end;
+    margin-top: 20px;
+}
+.checkoutbutton{
+    
+    border: solid 3.5px #222;
+    border-radius: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 14px;
+    background-color: white;
+    transition: background-color 0.6s ease-in ;
+    
+    
+}
+.checkoutbutton:hover{
+    background-color: #222;
+    color: white;
+}
+.Checkout-summary{
+  display: grid;
+  justify-content:end;
+  padding-left: 20px;
+
+  
+}
+.bin{
+    border-radius: 50px;
+    width:50px;
+    margin-top: 15px;
+}

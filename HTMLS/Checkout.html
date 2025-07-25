@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Stationary MRE</title>
+         <link rel="icon" type="image/png" href="../Images/round-logo.png">
+         <link rel="stylesheet" href="../CSS/homepage.css">
+         <link rel="stylesheet" href="../CSS/product.css">
+         <link rel="stylesheet" href="../CSS/Checkout.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    </head>
+    <body >
+        <div>
+
+        <div class="header">
+            <a href="../HTMLS/homepage.html"><div class="logo-div"><img src="../Images/logo.png" class="logo"></div></a>
+            <div class="middle-div">Because every paper holds a dream, and every pen is a beginning — welcome to Stationary MRE</div>
+            
+            <div  class="cart-div" >
+                <div style="position: relative; display: inline-block;">
+                    <img src="../Images/cart.png" class="cart">
+                    <div class="js-quantity1 quantity"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="Checkout-main1">
+                <div >
+                    <h1>Your Cart</h1>
+                </div>
+                <div style=" text-align: end; align-content: center; text-decoration: underline;">
+                    <a  href="../HTMLS/homepage.html">Continue Shopping</a>
+                </div>
+            </div>
+            <div class="Checkout-main2" >
+                <div style="text-align: center;" >Product</div>
+                <div style="text-align: end;">Quantity</div>
+                <div style="text-align: end;">Total</div>
+            </div>
+        </div>
+        <div class=" js-Checkout-main Checkout-main3">
+            <div class="inner-div">
+                <div >
+                    <img src="../Images/Image1.jpeg" class="cart-image">
+                </div>
+                <div class="inner-div2">
+                    <div>Panda Tote Bags</div>
+                     <div style="margin-top: 14px;">Rs 2500.00 PKR</div>
+                     <div><img src="../Images/star_5.png" class="star"></div>
+                </div>
+            </div>
+            <div class="quantity2">
+                <div class="quantity-button">
+                    <button onclick="decrease()">-</button>
+                    <span id="qty">1</span>
+                    <button onclick="increase()">+</button>
+                </div>
+            </div>
+            <div class="total" >Rs 2500.00 PKR</div>
+            
+        </div>
+        <div class="Checkout-summary js-Checkout-summary">
+            <div style="margin-left: 20px; margin-top: 30px;">Estimated Total:  Rs 2500.00 PKR</div>
+           <div style="margin-top: 20px;"> 
+            <button class="checkoutbutton">
+                Checkout
+            </button>
+            </div>
+        </div>
+
+    <script src="../Javascript/items.js"></script>
+    <script src="../Javascript/cart.js"></script>
+    <script src="../Javascript/Checkout.js"></script>
+    
+    </body>
+    
+</html>
